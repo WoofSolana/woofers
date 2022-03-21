@@ -18,7 +18,7 @@
                         <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-blue-500 rounded-xl font-bold transform uppercase ">Buy on DigitalEyes</a>
                     </div>
                     <div class="relative mt-12 mb-12 hover:scale-110 transition-all">
-                        <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-blue-500 rounded-xl font-bold transform uppercase ">Buy on Hyperspace</a>
+                        <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-pink-500 rounded-xl font-bold transform uppercase ">Buy on Hyperspace</a>
                     </div>
                 </div>
             </div>

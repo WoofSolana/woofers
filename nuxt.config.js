@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'WOOF - DEX & NFT Marketplace',
+    title: 'WOOFers Rarity',
     htmlAttrs: {
       lang: 'en'
     },
