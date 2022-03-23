@@ -147,7 +147,7 @@
                   { text: 'Sandy Gold', value: 'true', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/sandy.png'), rarity: '50.00%' },
                   { text: 'East Bay Blue', value: 'B', fact: 'uncommon', color: '#20d58a', image: require('@/assets/images/woofers/blue.png'), rarity: '40.00%' },
                   { text: 'Burgundy', value: 'C', fact: 'epic', color: '#9901f6', image: require('@/assets/images/woofers/burg.png'), rarity: '9.00%' },
-                  { text: 'East Bay Blue', value: "D", fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/night.png'), rarity: '1.00%' }
+                  { text: 'Night Sky', value: "D", fact: 'mythic', color: '#ed2939', image: require('@/assets/images/woofers/night.png'), rarity: '1.00%' }
                 ],
                 skins: [
                   { text: 'Terrier', value: 'A', fact: 'common', color: '#949494', image: require('@/assets/images/woofers/skin/terrier.png'), rarity: '30.00%' },
