@@ -123,7 +123,7 @@
         </div>
         <div class="container woofers-eyes flex flex-col mx-auto py-8 px-6">
             <div>
-                <h3 class="transform uppercase text-xl font-bold">Skin / Breed</h3>
+                <h3 class="transform uppercase text-xl font-bold">Head</h3>
                 <div class="background-sec">
                     <div class="grid grid-cols-4 gap-2 w-full py-4">
                         <div class="grid grid-cols-1">

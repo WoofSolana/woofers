@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'WOOFers Rarity',
+    title: 'WOOFers Rarity Playground',
     htmlAttrs: {
       lang: 'en'
     },
@@ -20,12 +20,6 @@ export default {
     script: [
       {
         src: "https://code.jquery.com/jquery-3.5.1.min.js"
-      },
-      {
-        src: "./PureSnow.js"
-      },
-      {
-        src: "https://crypto.com/price/static/widget/index.js"
       },
     ],
   },

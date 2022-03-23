@@ -639,12 +639,7 @@
   background-repeat: no-repeat;
   line-height: 0;
 }
-.playground__layer:before {
-  content: "";
-  display: block;
-  width: 100%;
-  padding-bottom: 100%;
-}
+
 .playground__attributes {
   flex: 1 1 auto;
   width: 100%;
@@ -652,6 +647,20 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 10px;
+}
+@media only screen and (min-width: 575.98px ) {
+  .playground__attributes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .playground__attributes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-top: 0;
+  }
 }
 .playground__attribute-wrapper {
   width: 32%;
@@ -664,7 +673,7 @@
 @media only screen and (max-width: 991.98px) {
   .playground__attribute-wrapper {
     width: 49%;
-    margin: 20px 0.5% 0;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 575.98px) {
@@ -711,13 +720,14 @@
   font-weight: 900;
   font-size: 1.25em;
 }
+
 @media only screen and (max-width: 575.98px) {
   .playground-attribute__percentage {
     font-size: 1em;
   }
 }
 
-.playground-attribute__rarity--Common {
+/* .playground-attribute__rarity--Common {
   background-color: #2d81ff;
 }
 .playground-attribute__rarity--Epic {
@@ -729,7 +739,17 @@
 .playground-attribute__rarity--Legendary {
   background-color: #feda03;
   color: #121212;
-} /*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/
+} /*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/ */
+
+:root {
+  --common: #949494;
+  --uncommon: #20d58a;
+  --rare: #00b3ff;
+  --epic: #9901f6;
+  --legendary: #ff8101;
+  --mythic: #ed2939;
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -875,114 +895,7 @@ summary {
 template {
   display: none;
 }
-@font-face {
-  font-family: cera pro;
-  font-weight: 100;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Thin.5b6de3b2.woff) format("woff"),
-    url(/static/media/CeraPro-Thin.4b1343c9.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 300;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Light.98b5420e.woff) format("woff"),
-    url(/static/media/CeraPro-Light.0291b904.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Regular.a81f68b2.woff) format("woff"),
-    url(/static/media/CeraPro-Regular.1216cfc5.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 500;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Medium.f64d02ac.woff) format("woff"),
-    url(/static/media/CeraPro-Medium.42477130.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Bold.d5b3ad75.woff) format("woff"),
-    url(/static/media/CeraPro-Bold.8c4d9453.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 900;
-  font-style: normal;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-Black.df6bd63f.woff) format("woff"),
-    url(/static/media/CeraPro-Black.13b8f5fd.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 100;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-ThinItalic.ff1d06c5.woff) format("woff"),
-    url(/static/media/CeraPro-ThinItalic.89363883.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 300;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-LightItalic.434287a7.woff) format("woff"),
-    url(/static/media/CeraPro-LightItalic.83fc78bf.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 400;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-RegularItalic.1bcaaad7.woff) format("woff"),
-    url(/static/media/CeraPro-RegularItalic.b3632cfd.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 500;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-MediumItalic.dd559e99.woff) format("woff"),
-    url(/static/media/CeraPro-MediumItalic.8b263959.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 700;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-BoldItalic.2f7cbf13.woff) format("woff"),
-    url(/static/media/CeraPro-BoldItalic.925c325d.woff2) format("woff2");
-}
-@font-face {
-  font-family: cera pro;
-  font-weight: 900;
-  font-style: italic;
-  font-display: auto;
-  src: local("Cera Pro"),
-    url(/static/media/CeraPro-BlackItalic.c26d9c94.woff) format("woff"),
-    url(/static/media/CeraPro-BlackItalic.89303a50.woff2) format("woff2");
-}
+
 *,
 :after,
 :before {
@@ -1002,8 +915,8 @@ html {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  background-color: #000;
-  background-image: url(/static/media/space-background.ea882edb.png);
+  background-color: #16171A;
+  background: url('https://img.wallpapersafari.com/desktop/1920/1080/81/95/Z7D2q6.jpg');
   background-position: 50%;
   background-size: 100%;
 }
