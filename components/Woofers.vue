@@ -11,14 +11,17 @@
                         <a href="https://magiceden.io/marketplace/woof" target="_blank" class="text-white text-basefont-black p-4 bg-purple-500 rounded-xl font-bold transform uppercase ">Buy on MagicEden</a>
                     </div>
                     <div class="relative mt-12 mb-12 hover:scale-110 transition-all">
+                        <a href="https://solport.io/collection/woofers" target="_blank" class="text-white text-basefont-black p-4 bg-purple-400 rounded-xl font-bold transform uppercase ">Buy on Solport</a>
+                    </div>
+                    <div class="relative mt-12 mb-12 hover:scale-110 transition-all">
                         <a href="https://solsea.io/collection/61abec1cb45ecc022c370d36" target="_blank" class="text-black text-basefont-black p-4 bg-green-500 rounded-xl font-bold transform uppercase ">Buy on SolSea</a>
                     </div>
 
                     <div class="relative mt-12 mb-12 hover:scale-110 transition-all">
-                        <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-blue-500 rounded-xl font-bold transform uppercase ">Buy on DigitalEyes</a>
+                        <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-blue-400 rounded-xl font-bold transform uppercase ">Buy on DigitalEyes</a>
                     </div>
                     <div class="relative mt-12 mb-12 hover:scale-110 transition-all">
-                        <a href="https://digitaleyes.market/collections/WOOFers" target="_blank" class="text-white text-basefont-black p-4 bg-blue-500 rounded-xl font-bold transform uppercase ">Buy on Hyperspace</a>
+                        <a href="https://hyperspace.xyz/collection/woofofsolana" target="_blank" class="text-white text-basefont-black p-4 bg-blue-500 rounded-xl font-bold transform uppercase ">Buy on Hyperspace</a>
                     </div>
                 </div>
             </div>
